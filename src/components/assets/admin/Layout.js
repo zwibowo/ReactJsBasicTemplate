@@ -16,7 +16,7 @@ class Layout extends Component {
           <div id="page-wrapper" className="gray-bg">
             <Header />
             <Switch>
-              <Route exact path="/dashboard" component={Index}/>
+              <Route path="/dashboard" component={Index}/>
               <Route path="/agama" component={IndexAgama}/>
               <Route path="/profile" component={IndexProfile}/>
             </Switch>
